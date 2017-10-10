@@ -1,3 +1,5 @@
 #!/usr/bin/env bash
 
-./sketchtool/bin/sketchtool --help
+mkdir out
+./sketchtool/bin/sketchtool export artboards ./sample.sketch --output=out
+ls out
